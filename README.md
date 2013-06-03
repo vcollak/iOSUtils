@@ -5,7 +5,7 @@ Various iOS helper utilities including round images, etc.
 
 ## Getting Started
 
-Run the following commands to get the utilities:
+Run the following commands to get the utilities.
 
     $ git clone https://github.com/vcollak/iOSUtils.git
 
@@ -13,11 +13,11 @@ Run the following commands to get the utilities:
 
 ## VCImage Class
 
-Class provides various image utilities.
+Class provides various image utilities. Copy VCImage.h and VCImage.m into your project. Make sure you import QuartzCore/QuartzCore.h in your view controller and also add the QuartzCore library to your project.
 
 ### roundImageLayerWithShadow
 
-Provide an image and the a point (coordinates) for the view and the method will return a CALayer that will round the image (circle) and add a shadow. Make sure you import QuartzCore/QuartzCore.h in the view controller and also add the QuartzCore library to your project.
+Provide an image and the a point (coordinates) for the view and the method will return a CALayer that will round the image (circle) and add a shadow. 
 
 ```objective-c
  //get an image
